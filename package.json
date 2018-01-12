@@ -1,0 +1,25 @@
+{
+  "name": "learntocodejs",
+  "version": "1.0.0",
+  "description": "learn to code javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidagil/Js.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Panida <panida.gilbert@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidagil/Js/issues"
+  },
+  "homepage": "https://github.com/nidagil/Js#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
