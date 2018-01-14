@@ -6,7 +6,7 @@
 //     random: uniqueRandomArray(movieNames)
 // };
 
-//You can write your own function or using third party library.
+//You can write your own functions or using third party library.
 
 var uniqueRandomArray = require('unique-random-array');
 var movieNames = require('./data-movie.json');
