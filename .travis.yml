@@ -5,7 +5,10 @@ cache:
 notifications:
   email: false
 node_js:
-  - iojs
+  - '9'
+  - '8'
+  - '6'
+  - '4'
 before_install:
   - npm i -g npm@^2.0.0  
 before_script:
@@ -13,5 +16,7 @@ before_script:
 script:
   - npm run test:single    
 after_success:
-  -npm run semantic-release
-
+  - npm run travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
