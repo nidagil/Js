@@ -1,5 +1,11 @@
 ## Welcome to GitHub Pages
 
+[![travis build](https://img.shields.io/travis/nidagil/Js.svg?style=plastic)](https://travis-ci.org/nidagil/Js)
+[![codecov coverage](https://img.shields.io/codecov/c/github/nidagil/Js.svg?style=plastic)](https://codecov.io/gh/nidagil/Js)
+[![download](https://img.shields.io/npm/dm/nidagil/Js.svg?style=plastic)](https://www.npmjs.com/package/learntocodejs)
+
+
+
 You can use the [editor on GitHub](https://github.com/nidagil/Js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
